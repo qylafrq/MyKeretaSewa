@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginCustomer">
+
+    <TableLayout
+        android:id="@+id/tableLayout"
+        android:layout_width="483dp"
+        android:layout_height="616dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="3dp"
+        android:background="@drawable/purple"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </TableLayout>
+
+    <ImageView
+        android:id="@+id/imgCar"
+        android:layout_width="183dp"
+        android:layout_height="66dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/rent" />
+
+    <TextView
+        android:id="@+id/mycarsewa"
+        android:layout_width="214dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:fontFamily="@font/bubblegum_sans"
+        android:text="MyCarSewa"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/tableLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.127" />
+
+    <TextView
+        android:id="@+id/Username"
+        android:layout_width="129dp"
+        android:layout_height="31dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:fontFamily="@font/bubblegum_sans"
+        android:text="Username :"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.333" />
+
+    <EditText
+        android:id="@+id/TxtName"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:ems="10"
+        android:fontFamily="@font/bubblegum_sans"
+        android:inputType="textPersonName"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.423" />
+
+    <TextView
+        android:id="@+id/Password"
+        android:layout_width="128dp"
+        android:layout_height="31dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:fontFamily="@font/bubblegum_sans"
+        android:text="Password :"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.514" />
+
+    <EditText
+        android:id="@+id/TxtPswd"
+        android:layout_width="wrap_content"
+        android:layout_height="34dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:ems="10"
+        android:fontFamily="@font/bubblegum_sans"
+        android:inputType="textPassword"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.604" />
+
+    <Button
+        android:id="@+id/BtnGo"
+        android:layout_width="112dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/button"
+        android:fontFamily="@font/bad_script"
+        android:text="Go"
+        android:textColor="@android:color/background_light"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.759" />
+
+    <Button
+        android:id="@+id/btnGo"
+        android:layout_width="272dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/button"
+        android:fontFamily="@font/bad_script"
+        android:text="Not a member ?"
+        android:textAllCaps="false"
+        android:textColor="@android:color/background_light"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.889" />
+
+</android.support.constraint.ConstraintLayout>
