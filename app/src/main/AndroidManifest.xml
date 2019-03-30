@@ -22,7 +22,10 @@
             android:resource="@array/preloaded_fonts" />
 
         <activity android:name=".RegisterAcc" />
-        <activity android:name=".FindCar"></activity>
+        <activity android:name=".FindCar" />
+        <activity android:name=".ResultPage" />
+        <activity android:name=".CarDetails" />
+        <activity android:name=".BookCar"></activity>
     </application>
 
 </manifest>
